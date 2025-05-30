@@ -1,6 +1,6 @@
 # Prohibited Registration Function
 
-Azure Function that processes prohibited user registration attempts from restricted countries. Saves attempts to PostgreSQL database and sends Slack notifications.
+Azure Function that processes prohibited user registration attempts from restricted countries. Saves attempts to Neon database and sends Slack notifications.
 
 ---
 
