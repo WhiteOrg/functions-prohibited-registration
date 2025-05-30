@@ -6,9 +6,9 @@ Azure Function that processes prohibited user registration attempts from restric
 
 ## What It Does
 
-- **Listens** to Service Bus topic for prohibited registration events
-- **Saves** registration attempts to Neon PostgreSQL database  
-- **Sends** formatted notifications to Slack channel
-- **Provides** HTTP endpoint for testing
+- **Listens** to the Service Bus topic for prohibited registration events
+- **Saves** registration attempts to the Neon PostgreSQL database  
+- **Sends** formatted notifications to a Slack channel
+- **Provides** a HTTP endpoint for testing
 
 ---
