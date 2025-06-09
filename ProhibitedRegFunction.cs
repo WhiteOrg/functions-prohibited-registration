@@ -68,10 +68,10 @@ namespace function_prohibitedregistration
 
         private async Task SaveToDatabase(Member member)
         {
-            var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings:NEON_DB_CONNECTION_STRING");
+            var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings:CONNECTION_STRING");
             if (string.IsNullOrEmpty(connectionString))
             {
-                _logger.LogWarning("NEON_DB_CONNECTION_STRING not configured - skipping database storage");
+                _logger.LogWarning("CONNECTION_STRING not configured - skipping database storage");
                 return;
             }
 
